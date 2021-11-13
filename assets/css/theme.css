@@ -13376,12 +13376,10 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
   margin-bottom: 0
 }
 
-.brand-logo-container {
-  width: 70px;
+.nav-menu-container {
   padding-left: 10px;
   vertical-align: middle;
-  font-size: 170%;
-  font-weight: bold;
+  float: left;
 }
 
 .brand-logo {

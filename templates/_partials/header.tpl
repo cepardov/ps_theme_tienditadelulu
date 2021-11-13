@@ -37,10 +37,10 @@
             <img class="brand-logo" src="{$shop.logo}" alt="{$shop.name}" loading="lazy">
           </a>
         </div>
-        <div class="col-md-5 col-xs-12">
+        <div class="nav-menu-container">
           {hook h='displayNav1'}
         </div>
-        <div class="col-md-5 right-nav">
+        <div class="nav-menu-container right-nav">
           {hook h='displayNav2'}
         </div>
       </div>
