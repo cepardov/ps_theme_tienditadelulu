@@ -516,8 +516,8 @@ a:hover {
 }
 
 a:focus {
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px
+  /*outline: 5px auto -webkit-focus-ring-color;
+  outline-offset: -2px*/
 }
 
 a:not([href]):not([tabindex]) {
@@ -13178,7 +13178,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
   margin-left: 0.9375rem;*/
   text-align: center;
   white-space: nowrap;
-  background: #f6f6f6
+  /*background: #f6f6f6*/
 }
 
 #header .header-nav .blockcart a {
