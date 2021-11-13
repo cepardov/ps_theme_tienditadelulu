@@ -13093,6 +13093,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 }
 
 #header .header-nav {
+  background: red;
   max-height: 50px;
   border-bottom: #f6f6f6 2px solid
 }
