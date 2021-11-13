@@ -13158,6 +13158,10 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
   white-space: nowrap
 }
 
+#header .header-nav .cart-preview:hover {
+  background-color: rgba(0, 0, 0, 0.2);
+}
+
 #header .header-nav .cart-preview.active {
   /*background: #24b9d7*/
 }
