@@ -13079,7 +13079,6 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 }
 
 #header a:hover {
-  color: #24b9d7;
   text-decoration: none
 }
 
@@ -13129,6 +13128,20 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
   margin-left: 2.5rem;*/
   text-align: right;
   white-space: nowrap
+}
+
+#header .header-nav .user-info a {
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
+  font-size: 1rem;
+  color: #fff;
+  display: block;
+  padding: 0 15px;
+  cursor: pointer;
+}
+
+#header .header-nav .user-info a:hover {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 #header .header-nav .user-info .account {
