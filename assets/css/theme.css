@@ -13075,7 +13075,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 }
 
 #header a {
-  color: #232323
+  color: #fff
 }
 
 #header a:hover {
@@ -13125,8 +13125,8 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 }
 
 #header .header-nav .user-info {
-  margin-top: 0.9375rem;
-  margin-left: 2.5rem;
+  /*margin-top: 0.9375rem;
+  margin-left: 2.5rem;*/
   text-align: right;
   white-space: nowrap
 }
@@ -13213,7 +13213,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 }
 
 #header .header-nav .material-icons {
-  line-height: inherit
+  /*line-height: inherit*/
 }
 
 #header .header-nav .material-icons.expand-more {
