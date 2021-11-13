@@ -13348,6 +13348,10 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
   margin-bottom: 0
 }
 
-.shop-logo {
-  max-height: 64px;
+.brand-logo {
+  position: absolute;
+  color: #fff;
+  display: inline-block;
+  font-size: 2.1rem;
+  padding: 0;
 }
