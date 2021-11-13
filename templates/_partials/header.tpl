@@ -32,7 +32,7 @@
   <nav class="header-nav">
     <div class="row">
       <div class="hidden-sm-down">
-        <div class="col-md-2 logo" id="_desktop_logo">
+        <div class="col-md-2 shop-logo" id="_desktop_logo">
           <a href="{$urls.pages.index}">
             <img class="" src="{$shop.logo}" alt="{$shop.name}" loading="lazy">
           </a>

@@ -13347,3 +13347,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 #notifications ul {
   margin-bottom: 0
 }
+
+.shop-logo {
+  max-height: 64px;
+}
