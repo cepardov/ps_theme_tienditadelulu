@@ -13180,6 +13180,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 #header .header-nav .cart-preview.active .cart-products-count {
   background: red;
   border-radius: 10px;
+  padding: 1px 8px;
 }
 
 #header .header-nav .cart-preview.active a,
