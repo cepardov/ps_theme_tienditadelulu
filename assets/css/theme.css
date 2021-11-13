@@ -13075,15 +13075,6 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
   box-shadow: 0 2px 5px 0 rgba(0, 0, 0, 0.11)
 }
 
-#header .logo {
-  max-width: 100%;
-  height: auto
-}
-
-#header #_desktop_logo h1 {
-  margin-bottom: 0
-}
-
 #header a {
   color: #232323
 }
