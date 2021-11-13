@@ -13093,7 +13093,6 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 }
 
 #header .header-nav {
-  background: red;
   max-height: 50px;
   border-bottom: #f6f6f6 2px solid
 }
@@ -13360,7 +13359,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
   vertical-align: top;
   position: relative;
   margin: 0 auto;
-  width: 120px;
+  height: 64px;
   text-align: center;
   -webkit-filter: drop-shadow(0px 0px 10px #000);
   filter: drop-shadow(0px 0px 10px #000);
