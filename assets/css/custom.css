@@ -1,0 +1,42 @@
+/*
+ * Custom code goes here.
+ * A template should always ship with an empty custom.css
+ */
+.block-category {
+    min-height: 4rem !important;
+}
+.card {
+    border-radius: 5px !important;
+}
+.block-categories {
+    border-radius: 5px;
+}
+#search_filters, #search_filters_brands, #search_filters_suppliers {
+    border-radius: 5px;
+}
+.block-category-inner > #category-description > p > img {
+    max-width: 100%;
+    height: auto;
+}
+.header-nav {
+    background-color: #fce4ec;
+}
+.footer-container {
+    background-color: #fce4ec;
+}
+.thumbnail-container .product-thumbnail {
+    overflow: hidden;
+}
+.thumbnail-container .product-thumbnail img {
+    -moz-transition: all 1.2s;
+    -webkit-transition: all 1.2s;
+    transition: all 1.2s;
+}
+.thumbnail-container .product-thumbnail:hover img {
+    -moz-transform: scale(1.2);
+    -webkit-transform: scale(1.2);
+    transform: scale(1.2);
+}
+.logo-maintenance {
+    max-width: 100%;
+}
