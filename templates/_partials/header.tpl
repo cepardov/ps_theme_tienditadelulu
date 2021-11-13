@@ -39,6 +39,21 @@
           {hook h='displayNav2'}
         </div>
       </div>
+
+      <div class="col-md-2 hidden-sm-down" id="_desktop_logo">
+        {if $page.page_name == 'index'}
+          <h1>
+            <a href="{$urls.pages.index}">
+              <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}" loading="lazy" width="100" height="28">
+            </a>
+          </h1>
+        {else}
+          <a href="{$urls.pages.index}">
+            <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}" loading="lazy" width="100" height="28">
+          </a>
+        {/if}
+      </div>
+
       <div class="hidden-md-up text-sm-center mobile">
         <div class="float-xs-left" id="menu-icon">
           <i class="material-icons d-inline">&#xE5D2;</i>
@@ -55,19 +70,6 @@
 {block name='header_top'}
   <div class="header-top">
     <div class="row">
-      <div class="col-md-2 hidden-sm-down" id="_desktop_logo">
-        {if $page.page_name == 'index'}
-          <h1>
-            <a href="{$urls.pages.index}">
-              <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}" loading="lazy" width="100" height="28">
-            </a>
-          </h1>
-        {else}
-          <a href="{$urls.pages.index}">
-            <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}" loading="lazy" width="100" height="28">
-          </a>
-        {/if}
-      </div>
       <div class="header-top-right col-md-10 col-sm-12 position-static">
         {hook h='displayTop'}
       </div>
