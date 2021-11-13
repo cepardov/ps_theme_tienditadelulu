@@ -32,7 +32,7 @@
   <nav class="header-nav">
     <div class="row">
       <div class="hidden-sm-down">
-        <div class="col-md-2 hidden-sm-down" id="_desktop_logo">
+        <div class="col-md-2" id="_desktop_logo">
           {if $page.page_name == 'index'}
             <h1>
               <a href="{$urls.pages.index}">
