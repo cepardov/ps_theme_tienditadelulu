@@ -13363,3 +13363,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
   -webkit-filter: drop-shadow(0px 0px 10px #000);
   filter: drop-shadow(0px 0px 10px #000);
 }
+
+.right {
+  float: right !important;
+}
