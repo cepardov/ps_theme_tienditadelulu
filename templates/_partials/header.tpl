@@ -40,7 +40,7 @@
         <div class="nav-menu-container">
           {hook h='displayNav1'}
         </div>
-        <div class="nav-menu-container right-nav">
+        <div class="col-md-5 right-nav">
           {hook h='displayNav2'}
         </div>
       </div>
