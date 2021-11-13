@@ -33,17 +33,9 @@
     <div class="row">
       <div class="hidden-sm-down">
         <div class="col-md-2" id="_desktop_logo">
-          {if $page.page_name == 'index'}
-            <h1>
-              <a href="{$urls.pages.index}">
-                <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}" loading="lazy">
-              </a>
-            </h1>
-          {else}
-            <a href="{$urls.pages.index}">
-              <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}" loading="lazy">
-            </a>
-          {/if}
+          <a href="{$urls.pages.index}">
+            <img class="logo" src="{$shop.logo}" alt="{$shop.name}" loading="lazy">
+          </a>
         </div>
         <div class="col-md-5 col-xs-12">
           {hook h='displayNav1'}
