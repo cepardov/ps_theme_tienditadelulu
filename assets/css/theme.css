@@ -13177,6 +13177,11 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
   background: #ffe0b2;
 }
 
+#header .header-nav .cart-preview.active a cart-products-count {
+  background: red;
+  border-radius: 10px;
+}
+
 #header .header-nav .cart-preview.active a,
 #header .header-nav .cart-preview.active i {
   color: #fff
