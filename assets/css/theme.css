@@ -506,7 +506,6 @@ blockquote {
 }
 
 a {
-  color: #24b9d7;
   text-decoration: none
 }
 
@@ -13190,6 +13189,10 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 
 #header .header-nav #_desktop_contact_link #contact-link {
   /*margin-top: 0.9375rem*/
+}
+
+#header .header-nav #_desktop_contact_link #contact-link {
+  background-color: rgba(0, 0, 0, 0.2);
 }
 
 #header .header-nav #_desktop_contact_link #contact-link a {
