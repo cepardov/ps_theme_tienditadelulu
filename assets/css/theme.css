@@ -506,14 +506,14 @@ blockquote {
 }
 
 a {
-  text-decoration: none
+  text-decoration: none;
 }
 
 a:focus,
 a:hover {
 /*  color: #198195;
   text-decoration: underline*/
-  text-decoration: none
+  text-decoration: none;
 }
 
 a:focus {
