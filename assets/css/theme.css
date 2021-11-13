@@ -13174,7 +13174,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 }
 
 #header .header-nav .cart-preview.active {
-  /*background: #24b9d7*/
+  background: #ffe0b2;
 }
 
 #header .header-nav .cart-preview.active a,
