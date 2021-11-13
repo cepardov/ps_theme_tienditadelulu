@@ -13189,7 +13189,11 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 }
 
 #header .header-nav #_desktop_contact_link #contact-link {
-  margin-top: 0.9375rem
+  /*margin-top: 0.9375rem*/
+}
+
+#header .header-nav #_desktop_contact_link #contact-link a {
+  color: #ffffff;
 }
 
 #header .header-nav .search-widget {
