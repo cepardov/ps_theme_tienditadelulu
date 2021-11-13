@@ -32,26 +32,25 @@
   <nav class="header-nav">
     <div class="row">
       <div class="hidden-sm-down">
-        <div class="">
-          {hook h='displayNav1'}
-        </div>
-        <div class="right-nav">
-          {hook h='displayNav2'}
-        </div>
-      </div>
-
-      <div class="col-md-2 hidden-sm-down" id="_desktop_logo">
-        {if $page.page_name == 'index'}
-          <h1>
+        <div class="col-md-2 hidden-sm-down" id="_desktop_logo">
+          {if $page.page_name == 'index'}
+            <h1>
+              <a href="{$urls.pages.index}">
+                <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}" loading="lazy" width="100" height="28">
+              </a>
+            </h1>
+          {else}
             <a href="{$urls.pages.index}">
               <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}" loading="lazy" width="100" height="28">
             </a>
-          </h1>
-        {else}
-          <a href="{$urls.pages.index}">
-            <img class="logo img-responsive" src="{$shop.logo}" alt="{$shop.name}" loading="lazy" width="100" height="28">
-          </a>
-        {/if}
+          {/if}
+        </div>
+        <div class="col-md-5 col-xs-12">
+          {hook h='displayNav1'}
+        </div>
+        <div class="col-md-5 right-nav">
+          {hook h='displayNav2'}
+        </div>
       </div>
 
       <div class="hidden-md-up text-sm-center mobile">
