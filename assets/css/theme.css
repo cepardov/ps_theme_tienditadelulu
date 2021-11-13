@@ -879,55 +879,55 @@ pre code {
   overflow-y: scroll
 }
 
-.container-a {
+.container {
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px
 }
 
-.container-a::after {
+.container::after {
   content: "";
   display: table;
   clear: both
 }
 
 @media (min-width: 576px) {
-  .container-a {
+  .container {
     width: 540px;
     max-width: 100%
   }
 }
 
 @media (min-width: 768px) {
-  .container-a {
+  .container {
     width: 720px;
     max-width: 100%
   }
 }
 
 @media (min-width: 992px) {
-  .container-a {
+  .container {
     width: 960px;
     max-width: 100%
   }
 }
 
 @media (min-width: 1200px) {
-  .container-a {
+  .container {
     width: 1140px;
     max-width: 100%
   }
 }
 
-.container-a-fluid {
+.container-fluid {
   margin-left: auto;
   margin-right: auto;
   padding-left: 15px;
   padding-right: 15px
 }
 
-.container-a-fluid::after {
+.container-fluid::after {
   content: "";
   display: table;
   clear: both
@@ -8508,7 +8508,7 @@ body#checkout section#content {
   margin-bottom: 1.563rem
 }
 
-body#checkout .container-a {
+body#checkout .container {
   min-height: 100%
 }
 
