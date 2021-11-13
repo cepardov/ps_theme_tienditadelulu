@@ -56,41 +56,39 @@
     </div>
   </div>
 
-  <div class="row">
-    <div class="col-md-12">
-      <h4 class="h4">
-      {l s='Shipping Method' d='Shop.Theme.Checkout'}
-        <span class="step-edit step-to-delivery js-edit-delivery"><i class="material-icons edit">mode_edit</i> {l s='edit' d='Shop.Theme.Actions'}</span>
-      </h4>
+  {if !$cart.is_virtual}
+    <div class="row">
+      <div class="col-md-12">
+        <h4 class="h4">
+          {l s='Shipping Method' d='Shop.Theme.Checkout'}
+          <span class="step-edit step-to-delivery js-edit-delivery"><i class="material-icons edit">mode_edit</i> {l s='edit' d='Shop.Theme.Actions'}</span>
+        </h4>
 
-      <div class="col-md-12 summary-selected-carrier">
-        <div class="row">
-          <div class="col-md-3">
-            <div class="logo-container">
-              {if $selected_delivery_option.logo}
-                <img src="{$selected_delivery_option.logo}" alt="{$selected_delivery_option.name}">
-              {else}
-                &nbsp;
-              {/if}
+        <div class="col-md-12 summary-selected-carrier">
+          <div class="row">
+            <div class="col-md-2">
+              <div class="logo-container">
+                {if $selected_delivery_option.logo}
+                  <img src="{$selected_delivery_option.logo}" alt="{$selected_delivery_option.name}" loading="lazy">
+                {else}
+                  &nbsp;
+                {/if}
+              </div>
+            </div>
+            <div class="col-md-4">
+              <span class="carrier-name">{$selected_delivery_option.name}</span>
+            </div>
+            <div class="col-md-4">
+              <span class="carrier-delay">{$selected_delivery_option.delay}</span>
+            </div>
+            <div class="col-md-2">
+              <span class="carrier-price">{$selected_delivery_option.price}</span>
             </div>
           </div>
-          <div class="col-md-2">
-            <span class="carrier-name">{$selected_delivery_option.name}</span>
-          </div>
-          <div class="col-md-4">
-            <span class="carrier-delay">{$selected_delivery_option.delay}</span>
-          </div>
-          <div class="col-md-3">
-	    {if $selected_delivery_option.name eq "Retiro"}
-            <span class="carrier-price text-danger font-weight-bold">Sin costo</span>
-	    {else}
-	    <span class="carrier-price text-danger font-weight-bold">{$selected_delivery_option.price}</span>
-            {/if}
-	  </div>
         </div>
       </div>
     </div>
-  </div>
+  {/if}
 
   <div class="row">
     {block name='order_confirmation_table'}
@@ -104,11 +102,4 @@
        }
     {/block}
   </div>
-
-  <div class="row">
-    <div class="alert alert-warning">
-      <strong>¡Atención!</strong> será redirigido a la pasarela de pagos, asegúrese de volver al comercio cuando finalice su transacción.
-    </div>
-  </div>
-
 </section>

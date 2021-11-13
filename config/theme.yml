@@ -1,10 +1,10 @@
-name: tienditadelulu
-display_name: "Tiendita de Lulú"
+name: classic
+display_name: Classic
 version: 1.0.0
 author:
-  name: "cepardov"
-  email: "cepardov@gmail.com"
-  url: "http://www.tienditadelulu.cl"
+  name: "PrestaShop Team"
+  email: "pub@prestashop.com"
+  url: "https://www.prestashop.com"
 
 meta:
   compatibility:

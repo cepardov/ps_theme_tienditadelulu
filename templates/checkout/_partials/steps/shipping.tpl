@@ -41,7 +41,7 @@
           {block name='delivery_options'}
             <div class="delivery-options">
               {foreach from=$delivery_options item=carrier key=carrier_id}
-                  <div class="row delivery-option">
+                  <div class="row delivery-option js-delivery-option">
                     <div class="col-sm-1">
                       <span class="custom-radio float-xs-left">
                         <input type="radio" name="delivery_option[{$id_address}]" id="delivery_option_{$carrier.id}" value="{$carrier_id}"{if $delivery_option == $carrier_id} checked{/if}>
@@ -54,7 +54,7 @@
                           <div class="row carrier{if $carrier.logo} carrier-hasLogo{/if}">
                             {if $carrier.logo}
                             <div class="col-xs-12 col-md-4 carrier-logo">
-                                <img src="{$carrier.logo}" alt="{$carrier.name}" />
+                                <img src="{$carrier.logo}" alt="{$carrier.name}" loading="lazy" />
                             </div>
                             {/if}
                             <div class="col-xs-12 carriere-name-container{if $carrier.logo} col-md-8{/if}">
@@ -66,16 +66,12 @@
                           <span class="carrier-delay">{$carrier.delay}</span>
                         </div>
                         <div class="col-sm-3 col-xs-12">
-			  {if $carrier.name eq "Retiro"}
-                          <span class="carrier-price">Sin costo</span>
-			  {else}
-			  <span class="carrier-price">{$carrier.price}</span>
-                          {/if}
-			</div>
+                          <span class="carrier-price">{$carrier.price}</span>
+                        </div>
                       </div>
                     </label>
                   </div>
-                  <div class="row carrier-extra-content"{if $delivery_option != $carrier_id} style="display:none;"{/if}>
+                  <div class="row carrier-extra-content js-carrier-extra-content"{if $delivery_option != $carrier_id} style="display:none;"{/if}>
                     {$carrier.extraContent nofilter}
                   </div>
                   <div class="clearfix"></div>
@@ -111,14 +107,7 @@
 
           </div>
         </div>
-	<!--
-	<div class="row">
-	  <div class="alert alert-info">
-	    Cuando la opción es retiro en tienda se asigna $1 por manupulación.
-	  </div>
-	</div>
-	-->
-	<button type="submit" class="continue btn btn-primary float-xs-right" name="confirmDeliveryOption" value="1">
+        <button type="submit" class="continue btn btn-primary float-xs-right" name="confirmDeliveryOption" value="1">
           {l s='Continue' d='Shop.Theme.Actions'}
         </button>
       </form>
