@@ -13189,6 +13189,8 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 
 #header .header-nav #_desktop_contact_link #contact-link {
   /*margin-top: 0.9375rem*/
+  -webkit-transition: background-color .3s;
+  transition: background-color .3s;
 }
 
 #header .header-nav #_desktop_contact_link #contact-link:hover {
