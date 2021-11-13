@@ -1,14 +1,14 @@
-name: classic
-display_name: Classic
+name: tienditadelulu
+display_name: "Tiendita de Lulú"
 version: 1.0.0
 author:
-  name: "PrestaShop Team"
-  email: "pub@prestashop.com"
-  url: "https://www.prestashop.com"
+  name: "cepardov"
+  email: "cepardov@gmail.com"
+  url: "http://www.tienditadelulu.cl"
 
 meta:
   compatibility:
-      from: 1.7.0.0
+      from: 1.7.8.0
       to: ~
 
   available_layouts:
@@ -72,8 +72,8 @@ global_settings:
       displayHome:
         - ps_imageslider
         - ps_featuredproducts
-        - ps_banner
-        - ps_customtext
+#        - ps_banner
+#        - ps_customtext
       displayFooterBefore:
         - blockreassurance
         - ps_emailsubscription
