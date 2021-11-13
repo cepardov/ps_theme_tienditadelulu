@@ -13094,9 +13094,8 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 
 #header .header-nav {
   max-height: 64px;
+  line-height: 64px;
 }
-
-
 
 #header .header-nav #menu-icon {
   margin: 0 1rem;
