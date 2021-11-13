@@ -13348,10 +13348,20 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
   margin-bottom: 0
 }
 
+.brand-logo-container {
+  width: 70px;
+  padding-left: 10px;
+  vertical-align: middle;
+  font-size: 170%;
+  font-weight: bold;
+}
+
 .brand-logo {
-  position: absolute;
-  color: #fff;
-  display: inline-block;
-  font-size: 2.1rem;
-  padding: 0;
+  vertical-align: top;
+  position: relative;
+  margin: 0 auto;
+  width: 120px;
+  text-align: center;
+  -webkit-filter: drop-shadow(0px 0px 10px #000);
+  filter: drop-shadow(0px 0px 10px #000);
 }
