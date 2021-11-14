@@ -12498,7 +12498,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 }
 
 .block-social {
-  text-align: right
+  text-align: center;
 }
 
 .block-social ul {
@@ -12668,8 +12668,13 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
   color: #24b9d7
 }
 
+.footer-container .links {
+  padding-left: 0;
+  padding-right: 0;
+}
+
 .links .collapse {
-  display: inherit
+  display: inherit;
 }
 
 @media (max-width: 767px) {
