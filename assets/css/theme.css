@@ -945,7 +945,7 @@ pre code {
   clear: both
 }
 
-@media (min-width: 576px) {
+/*@media (min-width: 576px) {
   .row {
     margin-right: -15px;
     margin-left: -15px
@@ -971,7 +971,7 @@ pre code {
     margin-right: -15px;
     margin-left: -15px
   }
-}
+}*/
 
 .col-xs,
 .col-xs-1,
