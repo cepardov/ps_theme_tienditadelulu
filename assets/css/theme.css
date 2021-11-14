@@ -8359,11 +8359,13 @@ input[type="number"]::-webkit-inner-spin-button {
 
 #mobile_top_menu_wrapper .top-menu .sub-menu ul[data-depth="1"]>li {
   float: none;
-  margin: 0
+  margin: 0;
+  border-bottom: 1px solid #7a7a7a;
 }
 
 #mobile_top_menu_wrapper .top-menu .sub-menu ul[data-depth="1"]>li a {
-  text-transform: none
+  text-transform: none;
+  color: #7a7a7a;
 }
 
 #mobile_top_menu_wrapper .top-menu .sub-menu ul {
@@ -8371,7 +8373,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 #mobile_top_menu_wrapper .top-menu .sub-menu li>a {
-  padding: 0.625rem;
+  padding: 5px 0 0 20px;
   font-weight: 600;
   border-bottom: 1px solid #fff
 }
@@ -13451,9 +13453,4 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 
 #header .header-top .menu ul li a:hover {
   background-color: rgba(0, 0, 0, 0.1);
-}
-
-#mobile_top_menu_wrapper .top-menu .sub-menu ul[data-depth="1"]>li a {
-  color: #7a7a7a;
-  height: 40px;
 }
