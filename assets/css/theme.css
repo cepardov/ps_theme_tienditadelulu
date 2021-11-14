@@ -12665,7 +12665,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 }
 
 .footer-container li a:hover {
-  color: #24b9d7
+  color: #ee6e73;
 }
 
 .footer-container .links {
@@ -12683,6 +12683,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 
 .footer-copyright p {
   color: #dddddd;
+  font-weight: 500;
 }
 
 .footer-copyright p span {
