@@ -13119,7 +13119,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
   -webkit-box-pack: end;
   -ms-flex-pack: end;
   justify-content: flex-end;
-  padding-right: 25px;
+  /*padding-right: 25px;*/
 }
 
 #header .header-nav .currency-selector {
@@ -13323,15 +13323,6 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
   .brand-logo {
     height: 40px !important;
     vertical-align: middle !important;
-  }
-
-  #header .header-nav #_mobile_user_info,
-  #header .header-nav #_mobile_cart {
-    margin-right: 8px;
-  }
-
-  #header .header-nav .cart-preview a {
-    padding-left: 0;
   }
 }
 
