@@ -24,7 +24,7 @@
  *}
 <div class="product-line-grid">
   <!--  product line left content: image-->
-  <div class="product-line-grid-left col-md-3 col-xs-4">
+  <div class="product-line-grid-left col-md-2 col-xs-4">
     <span class="product-image media-middle">
       {if $product.default_image}
         <img src="{$product.default_image.bySize.cart_default.url}" alt="{$product.name|escape:'quotes'}" loading="lazy">
@@ -116,7 +116,7 @@
   </div>
 
   <!--  product line right content: actions (quantity, delete), price -->
-  <div class="product-line-grid-right product-line-actions col-md-5 col-xs-12">
+  <div class="product-line-grid-right product-line-actions col-md-6 col-xs-12">
     <div class="row">
       <div class="col-xs-4 hidden-md-up"></div>
       <div class="col-md-10 col-xs-6">
