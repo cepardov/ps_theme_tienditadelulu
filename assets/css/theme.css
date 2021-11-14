@@ -12674,15 +12674,18 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 }
 
 .footer-copyright {
-  margin: 0 0 0 0;
+  position: relative;
+  padding: 0 25px 0 25px;
   background: #ee6e73;
+  height: 64px;
+  line-height: 64px;
 }
 
 .footer-copyright p {
-  color: #c7c7c7;
+  color: #dddddd;
 }
 
-.footer-copyright p.span {
+.footer-copyright p span {
   color: red;
 }
 
