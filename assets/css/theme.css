@@ -13099,7 +13099,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 }
 
 #header .header-nav #menu-icon {
-  margin: 0 1rem;
+  margin: 0 1rem 0 2rem;
   vertical-align: middle;
   cursor: pointer
 }
@@ -13319,7 +13319,12 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
     min-height: 50px
   }
   .brand-logo {
-    height: 40px;
+    height: 40px !important;
+    vertical-align: middle !important;
+  }
+
+  #header .header-nav .user-info a {
+    padding: 0;
   }
 }
 
