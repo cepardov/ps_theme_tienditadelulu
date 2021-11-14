@@ -13427,7 +13427,8 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 
 @media (max-width: 767px) {
   .search-widgets {
-    width: 95%;
+    width: 100%;
+    padding: 10px 25px 0px 25px;
   }
 }
 
