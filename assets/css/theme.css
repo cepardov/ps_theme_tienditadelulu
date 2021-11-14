@@ -2759,8 +2759,8 @@ select.form-control-lg:not([size]):not([multiple]),
 .btn:active.focus,
 .btn.active:focus,
 .btn.active.focus {
-  outline: 5px auto -webkit-focus-ring-color;
-  outline-offset: -2px
+  color: #fff;
+  background-color: #ee6e73;
 }
 
 .btn:focus,
