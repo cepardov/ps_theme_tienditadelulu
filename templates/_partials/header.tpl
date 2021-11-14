@@ -61,7 +61,7 @@
 {block name='header_top'}
   <div class="header-top">
     <div class="row">
-      <div class="header-top-right col-md-10 col-sm-12 position-static">
+      <div class="header-top-right col-sm-12 position-static">
         {hook h='displayTop'}
       </div>
     </div>

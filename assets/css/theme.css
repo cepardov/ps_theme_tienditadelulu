@@ -13420,3 +13420,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 .right {
   float: right !important;
 }
+
+.search-widgets {
+  padding-right: 25px;
+}
