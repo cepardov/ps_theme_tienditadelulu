@@ -13452,3 +13452,8 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 #header .header-top .menu ul li a:hover {
   background-color: rgba(0, 0, 0, 0.1);
 }
+
+#mobile_top_menu_wrapper .top-menu .sub-menu ul[data-depth="1"]>li a {
+  color: #7a7a7a;
+  height: 40px;
+}
