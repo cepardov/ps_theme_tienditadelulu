@@ -8225,11 +8225,11 @@ input[type="number"]::-webkit-inner-spin-button {
 .top-menu a[data-depth="0"] {
   padding: .625rem;
   font-size: 1.125rem;
-  font-weight: 600
+  /*font-weight: 600*/
 }
 
 #header .top-menu a[data-depth="0"]:hover {
-  color: #24b9d7;
+  /*color: #24b9d7;*/
   text-decoration: none
 }
 
@@ -13260,7 +13260,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 }
 
 #header .header-top {
-  padding: 1rem 0
+  /*padding: 1rem 0*/
 }
 
 #header .header-top>.container {
@@ -13432,8 +13432,13 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
   display: block;
   padding: 0 15px;
   cursor: pointer;
+  line-height: 64px;
 }
 
 #header .header-top .menu ul li a:hover {
-  background-color: rgba(0, 0, 0, 0.2);
+  background-color: rgba(0, 0, 0, 0.1);
+}
+
+#header .header-top .menu ul li a .dropdown-submenu{
+  color: #0a0a0a;
 }
