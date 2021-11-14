@@ -41,17 +41,6 @@
         {hook h='displayFooterAfter'}
       {/block}
     </div>
-    <div class="row">
-      <div class="col-md-12">
-        <p class="text-sm-center">
-          {block name='copyright_link'}
-            <p>
-              {l s='%copyright% %year% - Ecommerce software by %prestashop%' sprintf=['%prestashop%' => 'PrestaShop™', '%year%' => 'Y'|date, '%copyright%' => '©'] d='Shop.Theme.Global'}
-            </p>
-          {/block}
-        </p>
-      </div>
-    </div>
   </div>
 </div>
 <div class="footer-copyright">
