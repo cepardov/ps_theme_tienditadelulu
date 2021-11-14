@@ -8373,9 +8373,8 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 #mobile_top_menu_wrapper .top-menu .sub-menu li>a {
-  padding: 5px 0 0 20px;
+  padding: 5px 0 5px 20px;
   font-weight: 600;
-  border-bottom: 1px solid #fff
 }
 
 #mobile_top_menu_wrapper .top-menu .sub-menu ul[data-depth="2"] li a {
