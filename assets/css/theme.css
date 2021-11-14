@@ -8202,7 +8202,7 @@ input[type="number"]::-webkit-inner-spin-button {
 }
 
 .top-menu[data-depth="1"] {
-  margin: 0.625rem
+  /*margin: 0.625rem*/
 }
 
 .top-menu[data-depth="0"] {
@@ -8248,7 +8248,7 @@ input[type="number"]::-webkit-inner-spin-button {
   min-width: calc(100% - 30px);
   visibility: hidden;
   border: none;
-  box-shadow: 2px 1px 11px 2px rgba(0, 0, 0, 0.1);
+  box-shadow: 0px 5px 5px 0px rgba(0, 0, 0, 0.2);
   opacity: 0;
   transition: opacity 0.5s ease, visibility 0.5s ease
 }
