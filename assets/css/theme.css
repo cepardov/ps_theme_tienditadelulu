@@ -11673,10 +11673,6 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
   border-radius: 15px;
 }
 
-.product-flags .out_of_stock {
-  background: #fd474c;
-}
-
 .product-flags li.product-flag.online-only {
   position: absolute;
   top: 25rem;
