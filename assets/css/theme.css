@@ -13171,7 +13171,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
   -webkit-transition: background-color .3s;
   transition: background-color .3s;
   font-size: 1rem;
-  color: #fff;
+  color: #fff !important;
   display: block;
   padding: 0 15px;
   cursor: pointer;
@@ -13274,7 +13274,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
   -webkit-transition: background-color .3s;
   transition: background-color .3s;
   font-size: 1rem;
-  color: #fff;
+  color: #fff !important;
   display: block;
   padding: 0 15px;
   cursor: pointer;
