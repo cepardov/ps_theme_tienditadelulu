@@ -8244,9 +8244,8 @@ input[type="number"]::-webkit-inner-spin-button {
 
 .top-menu .sub-menu {
   z-index: 18;
-  width: calc(100% - 30px);
+  width: 100%;
   min-width: calc(100% - 30px);
-  margin-left: 0.9375rem;
   visibility: hidden;
   border: none;
   box-shadow: 2px 1px 11px 2px rgba(0, 0, 0, 0.1);
@@ -13436,7 +13435,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 }
 
 #header .header-top .menu ul li a[data-depth="1"] {
-  color: red;
+  color: #7a7a7a;
 }
 
 #header .header-top .menu ul li a:hover {
