@@ -12685,8 +12685,8 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 
 @media (max-width: 576px) {
   .footer-copyright {
-    padding-top: 10px;
-    line-height: 1em;
+    padding-top: 10px !important;
+    line-height: 1em !important;
   }
 }
 
