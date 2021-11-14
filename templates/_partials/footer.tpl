@@ -54,3 +54,6 @@
     </div>
   </div>
 </div>
+<div class="footer-copyright">
+  <p class="text-sm-center">© 2020 - 2021 <span>♥</span> Tienditadelulu - Santiago - Chile</p>
+</div>

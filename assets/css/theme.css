@@ -12673,6 +12673,19 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
   padding-right: 0;
 }
 
+.footer-copyright {
+  margin: 0 0 0 0;
+  background: #ee6e73;
+}
+
+.footer-copyright p {
+  color: #c7c7c7;
+}
+
+.footer-copyright p.span {
+  color: red;
+}
+
 .links .collapse {
   display: inherit;
 }
