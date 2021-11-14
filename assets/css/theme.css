@@ -12504,7 +12504,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 .block-social ul {
   display: -webkit-box;
   display: -ms-flexbox;
-  display: flex
+  display: block;
 }
 
 @media (max-width: 767px) {
@@ -12520,7 +12520,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
   height: 2.5rem;
   margin: 0.125rem;
   cursor: pointer;
-  background-color: #f6f6f6;
+  background-color: #868686;
   background-repeat: no-repeat
 }
 
@@ -12535,7 +12535,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 }
 
 .block-social ul li:hover {
-  background-color: #24b9d7
+  background-color: #ee6e73;
 }
 
 .block-social ul li a {
