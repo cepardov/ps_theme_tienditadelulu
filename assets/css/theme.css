@@ -13328,6 +13328,10 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
   #header .header-nav #_mobile_cart {
     margin-right: 5px;
   }
+
+  #header .header-nav .cart-preview a {
+    padding: 0;
+  }
 }
 
 #wrapper {
