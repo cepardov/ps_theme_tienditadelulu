@@ -2791,20 +2791,24 @@ fieldset[disabled] a.btn {
 
 .btn-primary {
   color: #fff;
-  background-color: #24b9d7;
-  border-color: rgba(0, 0, 0, 0)
+  background-color: #ee6e73;
+  border-color: rgba(0, 0, 0, 0);
+  border-radius: 2px;
+  -webkit-transition: background-color .2s ease-out;
+  transition: background-color .2s ease-out;
 }
 
 .btn-primary:hover {
   color: #fff;
-  background-color: #1d93ab;
+  transition: background-color .3s;
+  background-color: rgba(255,255,255,0.2);
   border-color: rgba(0, 0, 0, 0)
 }
 
 .btn-primary:focus,
 .btn-primary.focus {
   color: #fff;
-  background-color: #1d93ab;
+  background-color: #ee6e73;
   border-color: rgba(0, 0, 0, 0)
 }
 
@@ -7502,7 +7506,7 @@ label .color:hover,
 .btn-secondary,
 .btn-tertiary {
   padding: 0.5rem 1.25rem;
-  font-weight: 600;
+  /*font-weight: 600;*/
   text-transform: uppercase
 }
 
