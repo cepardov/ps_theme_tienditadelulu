@@ -13248,7 +13248,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 }
 
 #header .header-nav .blockcart.active a:hover {
-  color: #fff
+  color: #fff !important;
 }
 
 #header .header-nav .blockcart .header {
