@@ -13323,8 +13323,8 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
     vertical-align: middle !important;
   }
 
-  #header .header-nav .user-info a {
-    padding: 0;
+  #header .header-nav #_mobile_user_info {
+    margin-right: 30px;
   }
 }
 
