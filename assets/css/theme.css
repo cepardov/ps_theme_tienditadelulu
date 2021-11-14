@@ -13435,10 +13435,10 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
   line-height: 64px;
 }
 
-#header .header-top .menu ul li a:hover {
-  background-color: rgba(0, 0, 0, 0.1);
+#header .header-top .menu ul li a[data-depth="1"] {
+  color: red;
 }
 
-#header .header-top .menu ul li a .dropdown-submenu{
-  color: #0a0a0a;
+#header .header-top .menu ul li a:hover {
+  background-color: rgba(0, 0, 0, 0.1);
 }
