@@ -13189,7 +13189,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 }
 
 #header .header-nav .cart-preview .shopping-cart {
-  color: #7a7a7a;
+  /*color: #7a7a7a;*/
   vertical-align: middle
 }
 
