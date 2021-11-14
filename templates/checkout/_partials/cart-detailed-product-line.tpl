@@ -119,7 +119,7 @@
   <div class="product-line-grid-right product-line-actions col-md-6 col-xs-12">
     <div class="row">
 {*      <div class="col-xs-4 hidden-md-up"></div>*}
-      <div class="col-md-10 col-xs-6">
+      <div class="col-md-10 col-xs-10">
         <div class="row">
           <div class="col-md-6 col-xs-6 qty">
             {if !empty($product.is_gift)}
