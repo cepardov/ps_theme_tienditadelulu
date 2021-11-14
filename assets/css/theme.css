@@ -13318,12 +13318,8 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
     align-items: center;
     min-height: 50px
   }
-  #header .top-logo img {
-    width: auto;
-    max-height: 2rem
-  }
-  #header .top-logo>h1 {
-    margin: 0
+  .brand-logo {
+    height: 40px;
   }
 }
 
