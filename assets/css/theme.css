@@ -13326,11 +13326,11 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 
   #header .header-nav #_mobile_user_info,
   #header .header-nav #_mobile_cart {
-    margin-right: 5px;
+    margin-right: 8px;
   }
 
   #header .header-nav .cart-preview a {
-    padding: 0;
+    padding-left: 0;
   }
 }
 
