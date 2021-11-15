@@ -66,7 +66,11 @@
                           <span class="carrier-delay">{$carrier.delay}</span>
                         </div>
                         <div class="col-sm-3 col-xs-12">
-                          <span class="carrier-price">{$carrier.price}</span>
+                            {if $carrier.name eq "Retiro"}
+                                <span class="carrier-price">Sin costo</span>
+                            {else}
+                                <span class="carrier-price">{$carrier.price}</span>
+                            {/if}
                         </div>
                       </div>
                     </label>
