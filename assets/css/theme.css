@@ -8849,7 +8849,7 @@ body#checkout section.checkout-step .delivery-options .delivery-option label .ca
 }
 
 body#checkout section.checkout-step .delivery-options .delivery-option img {
-  width: 3.125rem
+  width: 100%;
 }
 
 body#checkout section.checkout-step .carrier-delay,
