@@ -80,11 +80,6 @@
           {/block}
           <div class="order-options">
 
-            {*<!--<div id="delivery">
-              <label for="delivery_message">{l s='If you would like to add a comment about your order, please write it in the field below.' d='Shop.Theme.Checkout'}</label>
-              <textarea rows="2" cols="120" id="delivery_message" name="delivery_message">{$delivery_message}</textarea>
-            </div>-->*}
-
             {if $recyclablePackAllowed}
               <span class="custom-checkbox">
                 <input type="checkbox" id="input_recyclable" name="recyclable" value="1" {if $recyclable} checked {/if}>
