@@ -10419,7 +10419,7 @@ body#checkout #hook-display-after-carrier>[class^="col"].links .row>[class^="col
 .products-sort-order .select-list:hover,
 .brands-sort .select-list:hover,
 .suppliers-sort .select-list:hover {
-  color: #fff;
+  color: #fff !important;
   text-decoration: none;
   background: #ee6e73
 }
