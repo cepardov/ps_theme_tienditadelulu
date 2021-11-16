@@ -37,6 +37,7 @@
   </button>
   <div class="dropdown-menu">
     {foreach from=$listing.sort_orders item=sort_order}
+				{*Todo verificar en la proxima version si se puede ordenar por precios*}
         {if $sort_order.field != 'price'}
 	      <a
 	        rel="nofollow"
