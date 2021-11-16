@@ -41,8 +41,9 @@
         rel="nofollow"
         href="{$sort_order.url}"
         class="select-list {['current' => $sort_order.current, 'js-search-link' => true]|classnames}"
+
       >
-        {$sort_order.label}
+        {$sort_order}
       </a>
     {/foreach}
   </div>
