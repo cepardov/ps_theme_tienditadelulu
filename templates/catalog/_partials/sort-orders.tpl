@@ -43,7 +43,7 @@
         class="select-list {['current' => $sort_order.current, 'js-search-link' => true]|classnames}"
 
       >
-        {$sort_order}
+        {$sort_order.name}
       </a>
     {/foreach}
   </div>
