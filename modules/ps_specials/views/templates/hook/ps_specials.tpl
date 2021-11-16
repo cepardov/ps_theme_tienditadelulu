@@ -31,4 +31,7 @@
   <a class="all-product-link float-xs-left float-md-right h4" href="{$allSpecialProductsLink}">
     {l s='All sale products' d='Shop.Theme.Catalog'}<i class="material-icons">&#xE315;</i>
   </a>
+  <a class="all-product-link float-xs-left float-md-right h4" href="{$allProductsLink}">
+    {l s='All sale products' d='Shop.Theme.Catalog'}<i class="material-icons">&#xE315;</i>
+  </a>
 </section>
