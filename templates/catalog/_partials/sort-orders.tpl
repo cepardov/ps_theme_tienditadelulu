@@ -37,16 +37,13 @@
   </button>
   <div class="dropdown-menu">
     {foreach from=$listing.sort_orders item=sort_order}
-				{*Todo verificar en la proxima version si se puede ordenar por precios*}
-        {if $sort_order.field != 'price'}
-	      <a
-	        rel="nofollow"
-	        href="{$sort_order.url}"
-	        class="select-list {['current' => $sort_order.current, 'js-search-link' => true]|classnames}"
-	      >
-	        {$sort_order.label}
-	      </a>
-        {/if}
+      <a
+        rel="nofollow"
+        href="{$sort_order.url}"
+        class="select-list {['current' => $sort_order.current, 'js-search-link' => true]|classnames}"
+      >
+        {$sort_order.label}
+      </a>
     {/foreach}
   </div>
 </div>
