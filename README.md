@@ -1,1 +1,0 @@
-Prestashop Theme for tienditadelulu
