@@ -151,8 +151,8 @@ global_settings:
   #    scope: [ stores ]
   #new_password_policy_feature: true
 
-#theme_settings:
-#  default_layout: layout-full-width
+theme_settings:
+  default_layout: layout-full-width
 #  layouts:
 #    category: layout-left-column
 #    best-sales: layout-left-column
