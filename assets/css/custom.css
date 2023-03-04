@@ -17,3 +17,12 @@
 .logo-maintenance {
     max-width: 100%;
 }
+
+#header .header-top {
+    padding: 0 !important;
+}
+
+#header .logo {
+    max-width: 60% !important;
+    height: auto;
+}
