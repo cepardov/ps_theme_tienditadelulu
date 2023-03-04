@@ -44,5 +44,5 @@
   </div>
 </div>
 <div class="footer-copyright">
-  <p class="text-sm-center">© 2020 - 2021 <span>♥</span> Tienda Victoria - Santiago - Chile</p>
+  <p class="text-sm-center">© 2020 - 2023 <span>♥</span> Tienda Victoria - Santiago - Chile</p>
 </div>
