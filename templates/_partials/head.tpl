@@ -47,6 +47,16 @@
       <link rel="alternate" href="{$pageUrl}" hreflang="{$code}">
     {/foreach}
   {/block}
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=G-6TWK47HDFJ"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'G-6TWK47HDFJ');
+  </script>
   
   {block name='head_microdata'}
     {include file="_partials/microdata/head-jsonld.tpl"}
