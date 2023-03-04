@@ -50,6 +50,7 @@
   
   {block name='head_microdata'}
     {include file="_partials/microdata/head-jsonld.tpl"}
+    {include file="_partials/microdata/google.tpl"}
   {/block}
   
   {block name='head_microdata_special'}{/block}
